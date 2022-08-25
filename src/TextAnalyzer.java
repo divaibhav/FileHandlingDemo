@@ -52,7 +52,7 @@ public class TextAnalyzer {
                 char data = content.charAt(i);
                 int writeData = data;
                 
-                fileOutputStream.write(writeData);
+                fileOutputStream.write();
                if(i == 150){
                    fileOutputStream.close();
                }
